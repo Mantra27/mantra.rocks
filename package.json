@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Minimal portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["portfolio", "website"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

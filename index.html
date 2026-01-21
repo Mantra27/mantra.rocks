@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <!-- <a href="#" class="nav-logo">Mantra's Portfolio</a> -->
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Mantra Gohil</h1>
+                <!-- <p class="hero-subtitle">i code really wierd stuff</p> -->
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        I believe in <u>minimal</u> design, <u>clean</u> code, and <u>thoughtful</u> interactions.
+                        <br>
+                        Usually you'll find me building things with <u>Rust</u> and <u>TypeScript</u>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="container">
+                <h2 class="section-title">Work</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <div class="work-number">01</div>
+                        <h3 class="work-title">Proxy server</h3>
+                        <p class="work-description">Inbound Proxy is a lightweight and efficient proxy server written in Rust</p>
+                        <a href="https://github.com/7tunnels7/inbound-proxy" class="work-link">View Project →</a>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-number">02</div>
+                        <h3 class="work-title">0uth</h3>
+                        <p class="work-description">An npm package powered by typescript that simplifies Passport and OAuth as a express middleware 🚀</p>
+                        <a href="https://github.com/Mantra27/0uth" class="work-link">View Project →</a>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-number">03</div>
+                        <h3 class="work-title">Reverse shell</h3>
+                        <p class="work-description">Simulate SSH connections, support authentication 🔑, and forward data to a remote server</p>
+                        <a href="https://github.com/7tunnels7/reverse-shell" class="work-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <a href="mailto:gohilmantra@gmail.com" class="contact-email">gohilmantra@gmail.com</a>
+                    <div class="contact-links">
+                        <a href="https://in.linkedin.com/in/mantra-gohil-93105221a" class="contact-link">LinkedIn</a>
+                        <a href="https://github.com/Mantra27" class="contact-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Made with 💜 by AI</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
